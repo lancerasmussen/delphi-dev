@@ -44,6 +44,8 @@ After running `/plugin install`, a menu will appear asking for the installation 
 | **Install for all collaborators (project scope)** | Adds the plugin to `.claude/settings.json` so everyone who clones the repo gets it |
 | **Install for you, in this repo only (local scope)** | Available only in the current project, gitignored |
 
+> **Note:** After confirming the installation in the menu, the plugin will be installed silently — no confirmation message is shown. To verify it installed correctly, go to the **Installed** tab in the `/plugin` panel.
+
 > **Tip (Windows):** If you get a "Host key verification failed" error, run this once in your terminal before installing:
 > ```powershell
 > git config --global url."https://github.com/".insteadOf git@github.com:
