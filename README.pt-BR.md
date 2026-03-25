@@ -36,6 +36,19 @@
 /plugin install delphi-dev@delphi-dev
 ```
 
+Após rodar `/plugin install`, um menu aparece pedindo o escopo da instalação:
+
+| Opção | Quando usar |
+|---|---|
+| **Install for you (user scope)** | Recomendado para uso individual — disponível em todos os projetos da sua máquina |
+| **Install for all collaborators (project scope)** | Adiciona o plugin ao `.claude/settings.json` para que todos que clonarem o repo tenham acesso |
+| **Install for you, in this repo only (local scope)** | Disponível apenas no projeto atual, ignorado pelo git |
+
+> **Dica (Windows):** Se aparecer o erro "Host key verification failed", rode isso uma vez no terminal antes de instalar:
+> ```powershell
+> git config --global url."https://github.com/".insteadOf git@github.com:
+> ```
+
 ---
 
 ## Padrões Aplicados Automaticamente
