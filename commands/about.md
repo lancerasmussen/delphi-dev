@@ -6,7 +6,7 @@ Exiba as seguintes informações formatadas sobre o plugin delphi-dev:
 
 **delphi-dev** — Claude Code Plugin
 
-- **Versão:** 1.2.0
+- **Versão:** 1.3.0
 - **Autor:** Adriano Santos
 - **Email:** adrianosantospro@gmail.com
 - **GitHub:** https://github.com/adrianosantostreina/delphi-dev
